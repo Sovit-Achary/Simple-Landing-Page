@@ -1,0 +1,224 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.home {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(255, 166, 0, 0.7));
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.home .in{
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.title h1 {
+    padding-bottom: 1.5rem;
+}
+
+.title h3 {
+    padding-bottom: 1.3rem;
+}
+
+.right h1,
+h3,
+a {
+    padding: 1.2rem;
+}
+
+.right a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.355);
+}
+
+@media(max-width: 992px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .home .in{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 25rem;
+    }
+}
+
+/* End */
+/* start about part */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem;
+    font-size: 1.3rem;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.about .list {
+    max-width: 65%;
+}
+
+.item li {
+    list-style: none;
+}
+
+.about .item {
+    padding: 1rem;
+}
+
+.about a {
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/* End */
+/* links */
+.activity {
+    padding: 1.8rem;
+    font-size: 1.5rem;
+}
+
+.activity img {
+    width: 4.2rem;
+}
+
+.activity a {
+    color: black;
+}
+
+/* End */
+/* normal text */
+.text p{
+    max-height: max-content;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(255, 166, 0, 0.7));
+    color: white;
+    font-size: 1.5rem;
+}
+
+.about2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(229, 220, 209);
+    text-align: center;
+}
+
+.about2 h1 {
+    text-align: center;
+}
+
+.about2 .list2 {
+    max-width: 65%;
+}
+
+.item2 li {
+    list-style: none;
+}
+
+.about2 .item2 {
+    padding: 0.3rem;
+}
+
+.about2 a {
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.sample-link{
+    width: fit-content;
+    margin: auto;
+    font-size: 2rem;
+    background-color: green;
+}
+.sample-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.books {
+    padding: 1.7rem;
+    text-align: center;
+}
+
+.books h5{
+    font-size: 2rem;
+}
+.row img{
+    height: 15rem;
+}
+
+.service a{
+    text-decoration: none;
+    color: white;    
+}
+
+.service button{
+    text-decoration: none;
+    color: white;
+    /* height: 2.3rem; */
+    background-color: red;
+    padding: 0.4rem;
+    border: none;
+}
+
+.choice{
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(255, 166, 0, 0.7));
+    width: 100%;
+    justify-content: center;
+    padding: 3.5rem;
+}
+
+.choice .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 25px;
+    padding: 2rem;
+}
+.choice a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 0.4rem;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
